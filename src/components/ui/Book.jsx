@@ -14,9 +14,12 @@ const Book = ({ book }) => {
           {book.title}
         </a>
       </div>
-      <div className="book__rating">
+      <div className="book__ratings">
     {
-        new Array(5).fill(0).map((element, index) => <FontAwesomeIcon icon="star" key={index} />)
+        new Array(Math.floor(book.rating)).fill(0).map((_, index) => <FontAwesomeIcon icon="star" key={index} />)
+    }
+    {
+        Number.isInteger(book.rating) ? '' : <FontAwesomeIcon icon="star-half-alt"/>
     }
       </div>
       <div className="book__price">
