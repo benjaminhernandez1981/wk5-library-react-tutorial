@@ -3,7 +3,7 @@ export const books = [
   {
     id: 1,
     title: "Crack the Coding Interview",
-    url: "https://covers.openlibrary.org/b/id/8091016-L.jpg",
+    url: "https://m.media-amazon.com/images/I/61mIq2iJUXL._AC_UF1000,1000_QL80_.jpg",
     originalPrice: 49.95,
     salePrice: 14.95,
     rating: 4.5,
@@ -67,7 +67,7 @@ export const books = [
   {
     id: 9,
     title: "48 Laws of Power Summary",
-    url: "https://covers.openlibrary.org/b/id/8906626-L.jpg",
+    url: "https://m.media-amazon.com/images/I/611X8GI7hpL._AC_UF1000,1000_QL80_.jpg",
     originalPrice: 35,
     salePrice: 19.95,
     rating: 4.5,
@@ -75,7 +75,7 @@ export const books = [
   {
     id: 10,
     title: "The 5 Second Rule",
-    url: "https://covers.openlibrary.org/b/id/8114155-L.jpg",
+    url: "https://m.media-amazon.com/images/I/81K5YDjy3SL._AC_UF1000,1000_QL80_.jpg",
     originalPrice: 40,
     salePrice: null,
     rating: 5,
@@ -91,7 +91,7 @@ export const books = [
   {
     id: 12,
     title: "Mastery",
-    url: "https://covers.openlibrary.org/b/id/8479576-L.jpg",
+    url: "https://m.media-amazon.com/images/I/51V3121nmkL._AC_UF1000,1000_QL80_.jpg",
     originalPrice: 30,
     salePrice: 12.95,
     rating: 4.5,
