@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Books from "./pages/Books";
 import { books } from "./data";
-
 import Cart from "./pages/Cart";
 import React, { useState, useEffect } from "react";
 import BookInfo from "./pages/Bookinfo";
@@ -69,6 +68,7 @@ function App() {
             />
           )}
         />
+        <Footer />
       </div>
     </Router>
   );

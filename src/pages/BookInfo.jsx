@@ -90,6 +90,6 @@ const BookInfo = ({ books, addToCart, cart }) => {
       </main>
     </div>
   );
-}
+};
 
 export default BookInfo;

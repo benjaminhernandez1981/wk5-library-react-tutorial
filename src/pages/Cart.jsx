@@ -1,6 +1,6 @@
 import React from "react";
 import EmptyCart from "../assets/empty_cart.svg";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from "react-router-dom";
 
 const Cart = ({ cart, changeQuantity, removeItem }) => {
   const total = () => {
@@ -29,7 +29,11 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                   return (
                     <div className="cart__item">
                       <div className="cart__book">
-                        <img src={book.url} className="cart__book--img" alt="" />
+                        <img
+                          src={book.url}
+                          className="cart__book--img"
+                          alt=""
+                        />
                         <div className="cart__book--info">
                           <span className="cart__book--title">
                             {book.title}
