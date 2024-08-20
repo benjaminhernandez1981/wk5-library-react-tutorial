@@ -20,11 +20,11 @@ const Nav = ({ numberOfItems }) => {
         <ul className="nav__links">
           <li className="nav__list">
             <Link to="/" className="nav__link"></Link>
-            Home
+            <Link>Home</Link>
           </li>
           <li className="nav__list">
             <Link to="/books" className="nav__link"></Link>
-            Books
+            <Link>Books</Link>
           </li>
           <button className="btn__menu" onClick={openMenu}>
             <FontAwesomeIcon icon="bars" />
