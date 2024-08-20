@@ -83,6 +83,7 @@ button:active {
   padding: 12px 24px;
   font-size: 20px;
   border-radius: 4px;
+  cursor: pointer;
   border: none;
 }
 
@@ -116,7 +117,10 @@ button:active {
   margin-left: 16px;
   display: flex;
   align-items: center;
+  font-weight: bold;
+  font-size: 20px;
   justify-content: center;
+  color: #7342d6;
 }
 
 .nav__link:hover {
