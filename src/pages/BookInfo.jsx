@@ -18,23 +18,23 @@ const BookInfo = ({ books, addToCart, cart }) => {
   }
 
   return (
-    <div id="books__body">
+<div id="books__body">
       <main id="books__main">
         <div className="books__container">
           <div className="row">
-            <div className="books__selected--top">
+            <div className="book__selected--top">
               <Link to="/books" className="book__link">
                 <FontAwesomeIcon icon="arrow-left" />
               </Link>
               <Link to="/books" className="book__link">
-                <h2 className="book__seleted--title--top">Books</h2>
+                <h2 className="book__selected--title--top">Books</h2>
               </Link>
             </div>
             <div className="book__selected">
-              <figure className="book_selected--figure">
-                <img src={book.url} alt="" className="book__selected--img" />
+              <figure className="book__selected--figure">
+                <img className="book__selected--img" src={book.url} alt="" />
               </figure>
-              <div className="book_selected--description">
+              <div className="book__selected--description">
                 <h2 className="book__selected--title">{book.title}</h2>
                 <Rating rating={book.rating} />
                 <div className="book__selected--price">
@@ -47,15 +47,17 @@ const BookInfo = ({ books, addToCart, cart }) => {
                   <h3 className="book__summary--title">Summary</h3>
                   <p className="book__summary--para">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores ea optio hic eligendi eos possimus consectetur?
-                    Recusandae placeat dicta blanditiis ea debitis, modi quam
-                    consequatur dolor, aliquid incidunt, perspiciatis magni.
+                    Veniam, repellendus modi odio porro, consequuntur,
+                    asperiores minima sint voluptatem at reiciendis ducimus
+                    neque provident alias iure nihil explicabo nobis id
+                    voluptas.
                   </p>
                   <p className="book__summary--para">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores ea optio hic eligendi eos possimus consectetur?
-                    Recusandae placeat dicta blanditiis ea debitis, modi quam
-                    consequatur dolor, aliquid incidunt, perspiciatis magni.
+                    Veniam, repellendus modi odio porro, consequuntur,
+                    asperiores minima sint voluptatem at reiciendis ducimus
+                    neque provident alias iure nihil explicabo nobis id
+                    voluptas.
                   </p>
                 </div>
                 {bookExistsOnCart() ? (
